@@ -14,9 +14,17 @@ public class Payments {
 	 @Id
 	    private String id;
 	    private String name;
-	    private String amount;
+	    private double amount;
+	    private double commission;
+	    private String description;
 	    @DateTimeFormat(pattern = "yyyy-mm-dd")
 	    private Date createDate;
+	    private String statusDeuda;
+	    private String creditId;
+	 
+	   
+	    
+	    
 
 }
 
